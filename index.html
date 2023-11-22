@@ -1,32 +1,36 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>Boite à idées</title>
-        <link href="/images/ada.ico" rel="icon"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="index.css" rel="stylesheet" />
 
-    </head>
-    <body>
+<head>
+  <meta charset="UTF-8">
+  <title>Boite à idées</title>
+  <link href="/images/ada.ico" rel="icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/index.css" rel="stylesheet" />
+</head>
 
-        <center><h1>Ada Tech School</h1></center>
-        <center><h3>Voici la boite à idée 2.0 Ada Tech School. N'hésite pas à partager ce que tu penses nécéssaire.</h3></center>
+<body>
 
-        <form action="https://formspree.io/f/xbjvelej" method="POST">
-          <div>
-            <center><h4>Ici, c'est un lieu anonyme. Tu peux donner ton nom si tu le souhaite, mais le reste est anonyme. Tu es libre de dire ce que tu veux (dans la limite du raisonnable).</h4></center>
-          </div>
-          <div>
-            <label for="msg">Suggestions&nbsp;:</label>
-            <textarea id="msg" name="user_message"></textarea>
-          </div>
-        
-          <div class="button">
-            <input type="submit">
-          </div>
-        </form>
-        
-        <script src="index.js"></script>
-    </body>
+  <h1 class="text-center">Ada Tech School</h1>
+  <h3 class="text-center">Voici la boite à idée 2.0 Ada Tech School. N'hésite pas à partager ce que tu penses
+    nécessaire.</h3>
+
+  <form action="https://formspree.io/f/xbjvelej" method="POST">
+    <div>
+      <p class="text-center">Ici, c'est un lieu anonyme. Tu peux donner ton nom si tu le souhaites, mais le reste est
+        anonyme. Tu es libre de dire ce que tu veux (dans la limite du raisonnable).</p>
+    </div>
+    <div>
+      <label for="msg">Suggestions :</label>
+      <textarea id="msg" name="user_message"></textarea>
+    </div>
+
+    <div class="button text-center">
+      <input type="submit">
+    </div>
+  </form>
+
+  <script src="/index.js"></script>
+</body>
+
 </html>
