@@ -3,6 +3,11 @@
   padding: 5px;
 }
 
+body {
+  margin: 5px;
+  padding: 5px;
+}
+
 h1 {
     color: rgb(273, 72, 50);
     background-color: rgb(248, 217, 209);
@@ -32,9 +37,9 @@ form {
   label {
     /* On s'assure que tous les libellés ont la même taille
        et sont correctement alignés. */
-    display: inline-block;
+    display: flex;
     width: 90px;
-    text-align: right;
+    justify-content: center;
   }
   
   input,
@@ -87,4 +92,25 @@ p {
     color: blue;
     justify-content: center;
     text-align: center;
+}
+
+/* Ajout des media queries */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  .button {
+    padding-left: 0;
+    text-align: center;
+  }
 }
