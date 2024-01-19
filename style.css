@@ -1,9 +1,16 @@
+* {
+  margin: 5px;
+  padding: 5px;
+}
+
 h1 {
     color: rgb(273, 72, 50);
     background-color: rgb(248, 217, 209);
+    justify-content: center;
+    text-align: center;
 }
 
-h4 {
+h3 {
   font-weight: bold;  
 }
 
@@ -78,4 +85,6 @@ form {
   /* Paragraphes en bleu par défaut */
 p {
     color: blue;
+    justify-content: center;
+    text-align: center;
 }
